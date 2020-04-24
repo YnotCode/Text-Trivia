@@ -1,0 +1,12 @@
+1)Which is largest?//
+1}pen,pencil,eraser,building,//*D
+2)Which U.S. President was involved in the Teapot Dome Scandal?//
+2}George Washington,Warren G. Harding,Calvin Coolidge,Herbert Hoover,//*B
+3)Which has 4 sides?//
+3}square,triangle,circle,hexagon,//*A
+4)Which planet is closest to the Sun?//
+4}Venus,Mars,Earth,Mercury,//*D
+5)What ocean is closes to California on the west?//
+5}Dead sea,Atlantic Ocean,Pacific Ocean,Indian Ocean,//*C
+Bonus)Who was Marco Polo's boss in China?//
+Bonus}Genghis Khan,Kublai Khan,Confucius,the Han emperors,//*B

@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+
+      .w3-container{
+
+        font-family: "Sen", sans-serif;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body style="background-color: #34aeeb;">
+
+    <center>
+
+      <div class="w3-container">
+        <t id="head">Next event in:</t>
+      </div>
+
+      <div style="height: 20%"></div>
+
+      <div class="w3-container">
+        <t style="font-size: 200%;"id="timeRemaining"></t>
+      </div>
+
+    </center>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+      socket.on("timeUpdate", function(msg){
+
+        document.getElementById("timeRemaining").innerHTML = msg.toString();
+
+      });
+
+      socket.on("changeTitle", function(msg){
+        document.getElementById("head").innerHTML = msg.toString();
+      });
+
+    </script>
+  </body>
+</html>

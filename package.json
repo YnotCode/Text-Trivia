@@ -1,0 +1,24 @@
+{
+  "name": "Text-Trivia",
+  "version": "1.0.0",
+  "description": "my setup file for Text Trivia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Quiz",
+    "Text",
+    "Trivia"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "*",
+    "http": "*",
+    "twilio": "^3.42.2",
+    "formidable": "*",
+    "socket.io": "*"
+  },
+  "author": "Anthony Varkey",
+  "license": "MPL-1.1"
+}
