@@ -4,4 +4,6 @@ multiple choice questions via text. The game is in real time so everyone signed 
 after 5 questions is the winner! The code allows for the admin to create a game using the gameStarter page and to change the questions if they have the questions.txt file. 
 We hope to expand the game later on by adding web based features on top of SMS (make question delivery not dependent on text messages). 
 
+SIGN UP BY TEXTING "JOIN" TO 734-339-2951
+
 Created by Anthony Varkey with help from Armaan Kamat and Kaan Lacin
