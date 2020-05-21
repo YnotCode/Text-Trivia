@@ -7,3 +7,5 @@ We hope to expand the game later on by adding web based features on top of SMS (
 SIGN UP BY TEXTING "JOIN" TO 734-339-2951
 
 Created by Anthony Varkey with help from Armaan Kamat and Kaan Lacin
+
+(EDIT: The project won "Most Innovative" and "Best Hardware Hack"! As the jam has ended, this service may be unoperational. Please wait as we come back with a new version!)
